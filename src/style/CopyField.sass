@@ -1,0 +1,26 @@
+.copy-field
+  display: block
+  position: relative
+  font-family: Inconsolata, monospace
+  margin: 2px 0
+  padding: 0.5em
+  background: #222
+  transition: background-color 200ms ease-in-out
+
+  & > svg
+    position: absolute
+    right: 0.5em
+    $size: 16px
+    width: $size
+    height: $size
+    fill: #eee
+    opacity: 0
+    transition: opacity 200ms ease-in-out
+
+  &[data-copied="true"]
+    background-color: lighten(#222, 10)
+    transition-duration: 50ms
+
+    & > svg
+      opacity: 1
+

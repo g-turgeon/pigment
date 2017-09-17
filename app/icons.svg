@@ -1,0 +1,6 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="checkmark" viewBox="0 0 16 16">
+    <rect x="2.306" y="6.357" transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.9638 -1.0971)" width="5" height="3" />
+    <rect x="4.005" y="4.984" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 22.3766 3.6996)" width="12.834" height="3" />
+  </symbol>
+</svg>
