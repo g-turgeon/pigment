@@ -37,7 +37,7 @@ module.exports = {
         test: /\.sass$/,
         loaders: [
           'style-loader',
-          'css-loader',
+          'css-loader?url=false',
           'sass-loader?outputStyle=expanded&indentedSyntax'
         ]
       }

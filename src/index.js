@@ -7,4 +7,3 @@ import 'style/main.sass'
 
 // Entry file
 ReactDom.render(<Layout />, document.querySelector('#app'))
-

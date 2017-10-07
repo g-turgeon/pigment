@@ -9,9 +9,12 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 20 + 256,
-    height: 650,
-    resizable: false
+    height: 670,
+    resizable: false,
+    titleBarStyle: 'hiddenInset'
   })
+
+  // mainWindow.webContents.openDevTools()
 
   // and load the index.html of the app.
   if (process.env.NODE_ENV === 'dev') {

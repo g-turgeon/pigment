@@ -12,6 +12,7 @@ $hue-box-size: 256px
 body
   font-family: Arial, sans-serif
   font-size: 12px
+  margin-top: 30px
   padding: 10px
   background-color: #111
   color: #eee
@@ -26,17 +27,23 @@ input
   border-radius: 2px
   -webkit-font-smoothing: antialiased
 
+.app-header
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  height: 25px
+  -webkit-app-region: drag
 
 .color-preview
   &__container
     width: 40px
     height: 40px
     margin-bottom: 10px
-    background-image: url(/alpha.svg)
+    background-image: url(alpha.svg)
 
   &__item
     height: 50%
-
 
 @import 'HueBox'
 @import 'ColorSlider'
